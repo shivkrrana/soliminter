@@ -107,6 +107,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -123,6 +124,9 @@
     font-weight: 600;
     padding: 0.5rem 2rem;
     cursor: pointer;
+    width:16rem;
+    text-align: center;
+    
 }
 
 .wallet-adapter-button-trigger {
@@ -214,8 +218,6 @@
     font-weight: 600;
     height: 37px;
     color: #fff;
-    background: transparent;
-    border: none;
 }
 
 .wallet-adapter-dropdown-list-item:not([disabled]):hover {
