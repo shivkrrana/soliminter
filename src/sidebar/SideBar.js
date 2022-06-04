@@ -59,21 +59,21 @@ export const Wallet = () => {
             <div className="option">
             <img src="assets/nft.svg" alt="nft" /><span>NFT</span>
             </div>
-            <div className="option">
+            <a href="https://docs.solminter.com/" style={{textDecoration:"none"}} target="_blank"><div className="option">
             <img src="assets/doc.svg" alt="token" /><span>Documentation</span>
-            </div>
+            </div></a>
         </div>
         <div className="connect_container">
             <div>
             Connect with us
             </div>
             <div className="connect">
-                <div className="twit_tele">
+            <a href="https://twitter.com/solminter" target="_blank"><div className="twit_tele">
                 <img src="assets/twitter.svg" alt="twitter" />
-                </div>
-                <div className="twit_tele">
+                </div></a>
+            <a href="https://t.me/solminter" target="_blank"><div className="twit_tele">
                 <img src="assets/telegram.svg" alt="telegram" />
-                </div>
+                </div></a>
             </div>
             <div className="footer">
             <div>
