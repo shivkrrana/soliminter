@@ -102,35 +102,30 @@
 
 .wallet-adapter-button {
     background-color: transparent;
-    border: none;
-    color: #fff;
     cursor: pointer;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'DM Sans', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    height: 48px;
-    line-height: 48px;
     padding: 0 24px;
     border-radius: 4px;
-    background: #4b1d54;
-    border: 0.2rem solid #b133cf;
     border-radius: 2rem;
-    text-align: center;
     color:white;
     font-size: 1rem;
     font-weight: 600;
     padding: 0.5rem 2rem;
     cursor: pointer;
     width:16rem;
-    text-align: center;
+    
     
 }
 
 .wallet-adapter-button-trigger {
-    background-color: #512da8;
+    /* background-color: #512da8; */
+    background: #4b1d54;
+    border: 0.2rem solid #b133cf;
+
 }
 
 .wallet-adapter-button:not([disabled]):focus-visible {
